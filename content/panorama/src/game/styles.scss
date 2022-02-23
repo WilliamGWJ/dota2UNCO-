@@ -1,0 +1,90 @@
+.root{
+    width: 100%;
+    height: 100%;
+}
+
+Label{
+    font-size: 30px;
+    color: white;
+    
+}
+
+.Main{
+    width: 800px;
+    height: 600px;
+    background-color: cornflowerblue;
+    align:center center;
+}
+
+.PosterFrame{
+    width: 550px;
+    height: 400px;
+    align:center center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: antiquewhite;
+}
+
+.Poster{
+    width: 100%;
+    height: 100%;
+    background-color: darkorange;
+    transition-property: position;
+    transition-duration: 1s;
+    @for $var from -10 to 10 {
+        &.state#{$var}{
+            x:$var * 550px;
+        }
+    }
+}
+
+@for $var from 0 to 10 {
+    .color#{$var}{
+        background-color: rgb($var * 20 + 20,$var * 20 + 20,$var * 20 + 20);
+    }
+}
+
+.Button{
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    Label{
+        color: coral
+    }
+}
+
+.Right{
+    @extend .Button;
+    align:right center;
+}
+
+.Left{
+    @extend .Button;
+    align:left center;
+}
+
+
+.BackPackMain{
+    width: 800px;
+    height: 550px;
+    background-color: antiquewhite;
+    align:center center;
+    flow-children:right-wrap;
+}
+
+.itemContainer{
+    width: 70px;
+    height: 70px;
+    background-color: bisque;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.item{
+    width: 90%;
+    height: 90%;
+    align:center center;
+}
+
+.dragitem{
+    width: 55px;
+    height: 55px;
+}

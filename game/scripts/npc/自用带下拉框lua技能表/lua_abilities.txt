@@ -2,7 +2,6 @@
 "XLSXContent" {
 	"item_kv_generator_test" {
 		"BaseClass" "ability_lua"
-		"ScriptFile" "ability/test_ability.lua"
 		"AbilitySpecial" {
 			"01" {
 				"var_type" "FIELD_FLOAT"
@@ -22,16 +21,8 @@
 
 		}
 		"MaxLevel" "2"
-		"AbilityCooldown" "5 6 7 8"
+		"AbilityCooldown" "1 2 3 4 "
 		"AbilityManaCost" "1 1 1 1"
-		"AbilityTextureName" ""
-		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT"
-		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
-		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-		"AbilityUnitTargetFlags" "DOTA_UNIT_TARGET_FLAG_NONE"
-		"SpellImmunityType" "SPELL_IMMUNITY_ENEMIES_NO"
-		"AbilityCastRange" "400"
-		"AbilityUnitDamageType" "DAMAGE_TYPE_MAGICAL"
 
 	}
 

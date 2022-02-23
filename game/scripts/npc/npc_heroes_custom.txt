@@ -1,0 +1,47 @@
+"Heroes"{
+    "unco_test"
+	{
+		"override_hero" "npc_dota_hero_tinker"
+		"Ability1"		"item_kv_generator_test"
+		"Ability2"		""
+		"Ability3"		""
+		"Ability4"		""
+		"Ability5"		""
+		"Ability6"		""
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"StatusHealth"                "5000"       // Base health.
+		"StatusHealthRegen"           "0"         // Health regeneration rate.
+		"StatusMana"                  "0"         // Base mana.
+		"StatusManaRegen"             "0"         // Mana regeneration rate.
+		"ArmorPhysical"		"2"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"		"24"
+		"AttackDamageMax"		"30"
+		"AttackRate"		"1.700000"
+		"AttackAnimationPoint"		"0.350000"
+		"AttackAcquisitionRange"		"800"
+		"AttackRange"		"500"
+		"ProjectileModel"		"particles/units/heroes/hero_tinker/tinker_base_attack.vpcf"
+		"ProjectileSpeed"		"900"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"		"18"
+		"AttributeStrengthGain"		"2.500000"
+		"AttributeBaseIntelligence"		"30"
+		"AttributeIntelligenceGain"		"3.300000"
+		"AttributeBaseAgility"		"13"
+		"AttributeAgilityGain"		"1.200000"
+		"MovementSpeed"		"290"
+		"StatusManaRegen"	"0.75"
+		"BoundsHullName"		"DOTA_HULL_SIZE_HERO"
+		"particle_folder"		"particles/units/heroes/hero_tinker"
+		"GameSoundsFile"		"soundevents/game_sounds_heroes/game_sounds_tinker.vsndevts"
+		"VoiceFile"		"soundevents/voscripts/game_sounds_vo_tinker.vsndevts"
+	}
+}

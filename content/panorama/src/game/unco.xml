@@ -1,0 +1,34 @@
+<root>
+
+
+
+    <scripts>
+        <include src="./script.tsx" />
+    </scripts>
+
+
+
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" /> 
+        <include src="./styles.scss" />
+    </styles>
+
+    <snippets>
+        <snippet name="item_shop">
+            <Panel class='shop'>
+                <DOTAItemImage itemname="item_aegis"/>
+                <Label id="shop_item_name" text="名字"/>
+                <Label text="$2000"/>
+                <Button class="buy">
+                    <Label text="购买"/>
+                </Button>
+            </Panel>
+        </snippet>
+    </snippets>
+
+
+    <Panel class="root" hittest="false" />
+
+
+
+</root>
